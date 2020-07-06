@@ -1,0 +1,30 @@
+<table>
+  <tbody>
+    <tr>
+      <td valign="top">
+        <div id="sidebar-wrapper" class="pre-scrollable" style="min-height:700px;min-width:80px">
+          <div class="list-group ">
+            <a href
+               class="list-group-item list-group-item-action ml-2"
+               routerLink="News"
+               [queryParams]="{section: sectionName.section}"
+               routerLinkActive="active"
+               *ngFor="let sectionName of sectionList">
+              {{sectionName.display_name}}
+            </a>
+          </div>
+        </div>
+      </td>
+      <td valign="top">
+        <div id="page-content-wrapper" class="pre-scrollable" style="min-height:700px">
+          <div class="container-fluid">
+
+            <router-outlet></router-outlet>
+            </div>
+          </div>
+
+      </td>
+    </tr>
+  </tbody>
+</table>
+  

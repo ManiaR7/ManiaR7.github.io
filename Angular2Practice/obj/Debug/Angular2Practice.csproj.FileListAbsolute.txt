@@ -1,0 +1,167 @@
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csprojAssemblyReference.cache
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\Angular2Practice.dll.config
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\Angular2Practice.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\Angular2Practice.pdb
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\csc.exe
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\csc.exe.config
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\csc.rsp
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\csi.exe
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\csi.exe.config
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\csi.rsp
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.AppContext.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Console.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Compression.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Claims.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.ValueTuple.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\vbc.exe
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\vbc.exe.config
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\vbc.rsp
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csproj.CoreCompileInputs.cache
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csproj.CopyComplete
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.dll
+C:\Users\Mukesh\Documents\Visual Studio 2017\Projects\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.pdb
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.pdb
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\Angular2Practice.dll.config
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\Angular2Practice.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\Angular2Practice.pdb
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csc.exe
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csc.exe.config
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csc.rsp
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csi.exe
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csi.exe.config
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csi.rsp
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.AppContext.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Console.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Compression.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Pipes.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Claims.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.ValueTuple.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XPath.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\vbc.exe
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\vbc.exe.config
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\vbc.rsp
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\VBCSCompiler.exe
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csproj.CoreCompileInputs.cache
+C:\Users\1533276\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csproj.CopyComplete
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\Angular2Practice.dll.config
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\Angular2Practice.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\Angular2Practice.pdb
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csc.exe
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csc.exe.config
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csc.rsp
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csi.exe
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csi.exe.config
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\csi.rsp
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.AppContext.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Collections.Immutable.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Console.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Compression.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.FileSystem.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.IO.Pipes.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Reflection.Metadata.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.AccessControl.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Claims.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.ValueTuple.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XPath.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\vbc.exe
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\vbc.exe.config
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\vbc.rsp
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\VBCSCompiler.exe
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\roslyn\VBCSCompiler.exe.config
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csprojAssemblyReference.cache
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csproj.CoreCompileInputs.cache
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.csproj.CopyComplete
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.dll
+C:\Desktop backup\Manish\source\repos\Angular2Practice\Angular2Practice\obj\Debug\Angular2Practice.pdb

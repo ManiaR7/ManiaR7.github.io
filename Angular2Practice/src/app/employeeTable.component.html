@@ -1,0 +1,39 @@
+<div><newsitem></newsitem></div>
+<div>
+  Pleas Enter Text : <input type="text" [(ngModel)]="test" />
+  <simple [changesText]="test"></simple>
+</div>
+
+
+<employeeList *ngIf="employeesTable" [all]="getAllCount()"
+              [male]="getMaleCount()"
+              [female]="getFemaleCount()"
+              (countRadioButtonChange)="selectedRadioButton($event)"></employeeList>
+
+<table class="minimalistBlack table-bordered">
+  <thead>
+    <tr>
+      <td>Name12</td>
+      <td>Gender1</td>
+      <td>Email1</td>
+      <td>DOB</td>
+      <td>Salary</td>
+    </tr>
+  </thead>
+  <tbody>
+    <ng-container *ngFor="let employee of employeesTable">
+      <tr *ngIf="employee.gender == selectedRadioButtonString || selectedRadioButtonString == 'All'">
+        <td>{{employee.name}}</td>
+        <td>{{employee.gender}}</td>
+        <td>{{employee.email}}</td>
+        <td>{{employee.DOB | date: 'dd/MM/yyyy'}}</td>
+        <td>{{employee.Salary}}</td>
+      </tr>
+      <tr *ngIf="!employeesTable">
+        <td>Loading Please wait...</td>
+      </tr>
+    </ng-container>
+  </tbody>
+
+</table>
+<br />

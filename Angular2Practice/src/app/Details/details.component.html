@@ -1,0 +1,9 @@
+<div *ngIf="Course">
+  <h2>{{Course.title}}</h2>
+
+<b>User ID</b> : {{Course.userId}} <br />
+<b>ID</b> : {{Course.id}}<br />
+<b>Status</b> : <span [style.background-color]="Course.completed == true ? 'green' : 'red'" style="color:white">{{Course.completed ? "Good" : "Bad"}}</span>
+  <br /><br />
+  <input type="button" class="btn btn-primary" value="Back to List" (click)="onBackButtonClick()" />
+</div>

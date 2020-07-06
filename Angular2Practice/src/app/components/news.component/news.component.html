@@ -1,0 +1,6 @@
+<div *ngIf="test2">
+    <newsitem *ngFor="let oneNews of test2.results; let i=index"
+              [id]="i"
+              [newsItem]="oneNews">
+    </newsitem>
+</div>
