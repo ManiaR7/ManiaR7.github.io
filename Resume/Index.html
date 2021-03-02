@@ -1,0 +1,828 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Manish Ramrakhiani</title>
+
+
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no" />
+    <link rel="shortcut icon" href="./Content/favicon_new.ico">
+
+    <link rel="stylesheet" href="./Content/css/bootstrap.min.css" />
+
+
+    <link rel="stylesheet" href="./Content/css/master.css" />
+    <link rel="stylesheet" href="./Content/css/apptheme.css" />
+
+
+    <script src="./Content/scripts/jquery.js"></script>
+    <script src="./Content/scripts/bootstrap.js"></script>
+
+
+    <style id="antiClickjack">
+        body {
+            display: none !important;
+        }
+    </style>
+    <style>
+       
+        footer {
+            position:fixed;
+            bottom:0;
+            margin-top:auto !important;
+            z-index:2001
+        }
+    </style>
+
+    <script type="text/javascript">
+        if (self === top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        } else {
+            top.location = self.location;
+        }
+    </script>
+    <script src="./Content/Scripts/jquery.nicescroll.min.js"></script>
+    <script src="./Content/Scripts/popper.js"></script>
+    <script src="./Content/Scripts/bootstrap.js"></script>
+
+    <script src="./Content/Scripts/accordion.js"></script>
+</head>
+
+<body onload="noBack();">
+    <noscript>
+        <div style="position: fixed; top: 0px; left: 0px; z-index: 3000; height: 100%; width: 100%; background-color: #FFFFFF">
+            <p style="font-weight: bold; color: Red">
+                JavaScript is not enabled.
+                <br />
+                Please Enable Javascript And Try Again..
+            </p>
+        </div>
+    </noscript>
+
+
+    <div style="display:none" class="menuIcon" onclick="open_menu()">
+        <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <header class="headersection">
+        <div style="cursor: pointer;" onclick="redirectpage()" id="headerLogo">
+            <h1>Manish Ramrakhiani</h1>        </div>
+        <div>
+            <div style="border: none;">
+                <!--<img alt="Grop Logo" id="GropLogo" src='~/Images/landmark_landing_page.PNG' style="width:120px;height:50px;" />-->
+
+            </div>
+            <div>&nbsp;</div>
+            <div class="openlog">
+               Refresh
+            </div>
+            <div class="openlog">
+                <i class="fa fa-user-circle fa-2x" style="color:  gold"></i>
+            </div>
+            <div  style="display:none" class="logoutscreen">
+                <p class="mb0" style="text-align:center">
+                    <a class="mb0" id="Logout" data-toggle="modal" data-target="#Confirm_Logout_Modal">Logout </a>
+
+                </p>
+            </div>
+        </div>
+
+
+    </header>
+
+    <div class="modal fade" id="ConfirmationModalLogout" role="dialog" data-backdrop="static" data-keyboard="false">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Confirmation</h4>
+                </div>
+                <div class="modal-body text-center" id="divconfirmLogout">
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btncss btn_primary" onclick="Logout();">Ok</button>
+                </div>
+            </div>
+
+        </div>
+    </div>    
+    <div class="modal fade" id="Confirm_Message" role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close closemodal" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Confirm Email Trigger</h4>
+                </div>
+                <div class="modal-body">
+                    <div class="text-center">
+                        <i class="fa fa-question-circle fa-4x successicon" style="color: darkblue"></i>
+
+                        <p id="ConfirmMessage"></p>
+                    </div>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btncss btn_primary" data-dismiss="modal" onclick="">Yes</button>
+                    <button type="button" class="btncss btn_Scondary" data-dismiss="modal">No</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <div class="page-content" style="min-height:630px;padding-top:80px;padding-bottom:50px">
+
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Profesional Summary
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="./Content/img/microsoft_logo.png" style="position:fixed;margin-left:930px" width="250px" />
+                        <img src="./Content/img/Microsoft-dot-net-logo.png" style="position:fixed;margin-left:850px;margin-top:70px" width="200px" />
+                        <img src="./Content/img/website-logo.png" style="position:fixed;margin-left:1125px;margin-top:70px;opacity:0.7" width="70px" />
+                        <ul>
+                            <li>Experience in design and development phase using <span class="imp">Microsoft</span> technologies.</li>
+                            <li>Currently working with Tata Consultancy Services since July 2018 as <span class="imp">.NET Developer</span>.</li>
+                            <li>Good understanding of <span class="imp">OOP</span> (Object Oriented Programming) concepts, ASP.NET MVC, MS SQL.</li>
+                            <li>Good work ethics with excellent communication and interpersonal skills.</li>
+                            <li>Capable to delve into the new leading Technologies</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Skills
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="./Content/img/c-sharp.png" style="position:fixed;margin-left:850px" width="90px" />
+                        <img src="./Content/img/angular.png" style="position:fixed;margin-left:950px;" width="90px" />
+                        <img src="./Content/img/SQL.png" style="position:fixed;margin-left:920px;margin-top:100px" width="70px" />
+                        <img src="./Content/img/VS.png" style="position:fixed;margin-left:820px;margin-top:100px;" width="75px" />
+                        <img src="./Content/img/JS.png" style="position:fixed;margin-left:1000px;margin-top:80px;" width="100px" />
+                        <table>
+                            <tbody>
+                                <tr>
+                                    <td style="min-width:100px">Languages</td>
+                                    <td>:</td>
+                                    <td>C#, Typescript, C++, Java</td>
+                                </tr>
+                                <tr>
+                                    <td style="min-width:50px">Framework</td>
+                                    <td>:</td>
+                                    <td>.Net Framework 3.5/4.0/4.5, Entity Framework.C# </td>
+                                </tr>
+                                <tr>
+                                    <td style="min-width:50px">Web Technologies</td>
+                                    <td>:</td>
+                                    <td><span class="imp">ASP.NET, MVC</span>, HTML, JavaScript, jQuery, <span class="imp">Angular</span>, KnockOutJS</td>
+                                </tr>
+                                <tr>
+                                    <td style="min-width:50px">Database</td>
+                                    <td>:</td>
+                                    <td>SQL Server 2012/2014/2017.</td>
+                                </tr>
+                                <tr>
+                                    <td style="min-width:50px">Operating Systems</td>
+                                    <td>:</td>
+                                    <td>Windows server 2012, Windows 7/10, UNIX.</td>
+                                </tr>
+                                <tr>
+                                    <td style="min-width:50px">Environmental tools&nbsp;&nbsp;</td>
+                                    <td>:</td>
+                                    <td>SAP ERP, Visual Studio 2017, SQL Profiler</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Educational Qualifications
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="./Content/img/college.png" style="position:absolute;margin-left:950px;margin-top:55px;z-index:2000" width="120px" />
+                        <ol>
+                            <li><span class="imp">Bachelor of Engineering</span> in Electronics & Telecomm from Thadomal Shahani College in year 2014 with first class 69.22% score.</li>
+                            <li><span class="imp">Diploma Holder</span> in Electronics & Telecomm from Institute of Technology, Ulhasnagar in year 2011 with 84.06% scoreachelor of Engineering in Electronics & Telecomm from Thadomal Shahani College in year 2014 with first class 69.22% score.</li>
+                            <li>SSC from Jhulelal trust school, Ulhasnagar in year 2008 with 81.69% score.</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Certifications
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body" style="height:150px">
+                        <img src="./Content/img/Azure-Fundamental.png" style="position:absolute;margin-left:750px;margin-top:-10px" width="140px" />
+                        <ul>
+                            <li><span class="imp">Microsoft Certified: Azure Fundamentals</span> – February 2021</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFive">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Projects
+                        </button>
+                    </h2>
+                </div>
+                <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h4 style="font-weight:bold">Tata Consultancy Services</h4>
+                        <img src="./Content/img/TataLogo.png" style="position:relative;margin-left:950px;margin-top:-30px" width="110px" />
+                        <div class="accordion" id="accordionExample2">
+
+                            <div class="card">
+                                <div class="card-header" id="headingInner1One">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseInner1One" aria-expanded="true" aria-controls="collapseInner1One">
+                                            <span style="text-decoration:underline;font-weight:bold">Project 1:</span> RTA
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseInner1One" class="collapse show" aria-labelledby="headingInner1One" data-parent="#accordionExample2">
+                                    <div class="card-body">
+                                        <table style="width:100%" border="1">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2"> RTA(Resource Tracking Application)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Client(s)</span></td>
+                                                    <td>Internal</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Role</span></td>
+                                                    <td>Design and Development, Code Review.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Environment</span></td>
+                                                    <td>ASP.Net Core, Angular 7, JQuery, Javascript</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Database</span></td>
+                                                    <td>MS-SQL Server 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <span style="font-weight:bold;text-decoration:underline">Description:</span>
+                                                        <ul>
+                                                            <li>Developing system for resource tracking tagged to internal account. Developing highly secure and reliable multipage angular project with JWT authentication on API end.</li>
+                                                            <li>Created modules to display all resources in compact design. Implemented create update and delete pages for changes in resource.</li>
+                                                            <li>Understood requirement for various modules and their interconnectivity and different ways to implement using Angular dependency injection architecture.</li>
+                                                            <li>Integrated with latest multiselect controls, Data filtering and sorting controls for user friendly experience.</li>
+                                                            <li>Handled code reusability using data sharing components within modules.</li>
+                                                            <li>Implemented concept of subscribe and promise for getting data from Database via WEB API.</li>
+                                                        </ul>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                            <div class="card">
+                                <div class="card-header" id="headingInnerOne">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseInnerOne" aria-expanded="true" aria-controls="collapseInnerOne">
+                                            <span style="text-decoration:underline;font-weight:bold">Project 2:</span> PWM AP Workflow
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseInnerOne" class="collapse show" aria-labelledby="headingInnerOne" data-parent="#accordionExample2">
+                                    <div class="card-body">
+                                        <img src="./Content/img/manpower.png" style="position:absolute;margin-left:950px;margin-top:-30px" width="180px" />
+                                        <img src="./Content/img/huntsman.png" style="position:absolute;margin-left:950px;margin-top:80px" width="180px" />
+
+                                        <table style="width:100%" border="1">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2"> PWM AP Workflow</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Client(s)</span></td>
+                                                    <td>Huntsman, Manpower & Landmark</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Role</span></td>
+                                                    <td>Design and Development, Code Review.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Environment</span></td>
+                                                    <td>ASP.Net 4.5 MVC, JQuery, JavaScript, SAP ERP Integration</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Database</span></td>
+                                                    <td>MS-SQL Server 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <span style="font-weight:bold;text-decoration:underline">Description:</span>
+                                                        <ul>
+                                                            <li>Developing accounts payable solution for Client. Implementing connectivity with client’s SAP ERP systems with our solution.</li>
+                                                            <li>Configurable solution for Processing invoices, Workflow routing of every invoice, Approval Flow, Dynamic conditional Quality check with multiple static and runtime parameters</li>
+                                                            <li>Realtime integration with SAP systems for fetching invoice details and PII details, sending invoice details to SAP ERP systems after completing workflow.</li>
+                                                            <li>Created schedulers to enable multiple sources of Invoices - Email, Excel Bulk upload, Local Folder, Remote SFTP. This helped in flexibility to client for Invoice creation in our tool.</li>
+                                                            <li>Solution provided with Email Notification, Approval Notifications, managing DOA Matrix, managing Queries and Reports</li>
+                                                        </ul>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="card-header" id="headingInnerTwo">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseInnerTwo" aria-expanded="true" aria-controls="collapseInnerTwo">
+                                            <span style="text-decoration:underline;font-weight:bold">Project 3:</span> SAP Connector
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseInnerTwo" class="collapse" aria-labelledby="headingInnerTwo" data-parent="#accordionExample2">
+                                    <div class="card-body">
+
+                                        <table style="width:100%" border="1">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2"> SAP Connector</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Client(s)</span></td>
+                                                    <td>Olympus</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Role</span></td>
+                                                    <td>Design and Development, Code Review.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Environment</span></td>
+                                                    <td>ASP.Net 4.5, SAP ERP Integration</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Database</span></td>
+                                                    <td>MS-SQL Server 2017</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <span style="font-weight:bold;text-decoration:underline">Description:</span>
+                                                        <ul>
+                                                            <li>Developed solution for Middleware communicator between SAP ERP system and External application for Realtime data fetch from SAP systems using BAPI calls.</li>
+                                                            <li>Connector will manage Input and Output parameters to SAP Function call and make output available in JSON to client application.</li>
+                                                            <li>Input and Output Parameters configurable in Backend and Evaluate on runtime.</li>
+                                                            <li>Strengthened understanding of SAP Systems and process to import/export data from SAP System in secure way.</li>
+                                                        </ul>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header" id="headingInnerThree">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseInnerThree" aria-expanded="true" aria-controls="collapseInnerThree">
+                                            <span style="text-decoration:underline;font-weight:bold">Project 4:</span> QMS
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseInnerThree" class="collapse" aria-labelledby="headingInnerThree" data-parent="#accordionExample2">
+                                    <div class="card-body">
+                                        <img src="./Content/img/weatherford.png" style="position:absolute;margin-left:950px;margin-top:20px" width="180px" />
+                                        <table style="width:100%" border="1">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2"> QMS(Quanlity Management System)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Client(s)</span></td>
+                                                    <td>Weatherford</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Role</span></td>
+                                                    <td>Development, Code Review.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Environment</span></td>
+                                                    <td>ASP.Net 4.5 MVC, JQuery, JavaScript, KnockOutJS, WCF</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Database</span></td>
+                                                    <td>MS-SQL Server 2014</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <span style="font-weight:bold;text-decoration:underline">Description:</span>
+                                                        <ul>
+                                                            <li>QMS application is rating management system, calls executed by Agent go through series of evaluation which application captures.</li>
+                                                            <li>Worked in creating dynamic Evaluation templates, which is can be created and assigned to different teams. Every template can consists of parameters and criteria on which evaluation takes place.</li>
+                                                            <li> Handled tasks of developing critical Modules from requirement provided. Proposed Database design, Workflow and Page Layout, implemented after team review.</li>
+                                                            <li>Used latest Bootstrap elements to make User experience better. Focused on keeping code simpler, readable and performance oriented.</li>
+                                                            <li>Unit test case writing of every module developed, and changes made. This helped in better logic design and helped in testing.</li>
+
+                                                        </ul>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div style="margin-top:20px"></div>
+                        <h4 style="font-weight:bold">Larsen and Toubro Infotech ltd.</h4>
+                        <img src="./Content/img/LTI.png" style="position:absolute;margin-left:950px;margin-top:-65px;z-index:2000" width="120px" />
+
+                        <div class="accordion" id="accordionExample3">
+                            <div class="card">
+                                <div class="card-header" id="headingInner2One">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseInner2One" aria-expanded="true" aria-controls="collapseInner2One">
+                                            <span style="text-decoration:underline;font-weight:bold">Project 1:</span> CART
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseInner2One" class="collapse" aria-labelledby="headingInner2One" data-parent="#accordionExample3">
+                                    <div class="card-body">
+                                        <img src="./Content/img/viacom.png" style="position:absolute;margin-left:950px;margin-top:25px;z-index:2000" width="180px" />
+                                        <table style="width:100%" border="1">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2"> CART(Compliance Access Review Tool)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Client(s)</span></td>
+                                                    <td>Viacom</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Role</span></td>
+                                                    <td>Development, Client Interaction.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Environment</span></td>
+                                                    <td>ASP.NET 4.0 using C#, Ajax, JQuery, Service Now.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Database</span></td>
+                                                    <td>MS-SQL Server 2008</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <span style="font-weight:bold;text-decoration:underline">Description:</span>
+                                                        <ul>
+                                                            <li>SOX-CART application is developed for Viacom using C#.NET 4.0 framework and MS SQL 2008.</li>
+                                                            <li>The application has its main objective to automate the process of the IT Compliance and to assist for auditing, making auditing easier.</li>
+                                                            <li>The application has been built in compliance to SOX-Act (year: 2002).</li>
+                                                            <li>The application reviews the access of the user on the different applications for the (Share/Server/Database) and to provide the signoff (Approve/Reject) on them.</li>
+                                                            <li>Constant client interactions and code review by client in development phase of application.</li>
+                                                            <li>Creating stored procedures and functions and optimizing queries and stored procedures.</li>
+                                                            <li>Documentation of implementation, after successful testing and quality analysis.</li>
+                                                            <li>Delivering daily & weekly accomplished task accomplishment reports to client.</li>
+
+                                                        </ul>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="card">
+                                <div class="card-header" id="headingInner2Two">
+                                    <h2 class="mb-0">
+                                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseInner2Two" aria-expanded="true" aria-controls="collapseInner2Two">
+                                            <span style="text-decoration:underline;font-weight:bold">Project 2:</span> STAT
+                                        </button>
+                                    </h2>
+                                </div>
+
+                                <div id="collapseInner2Two" class="collapse" aria-labelledby="headingInnerTwo" data-parent="#accordionExample3">
+                                    <div class="card-body">
+                                        <img src="./Content/img/paramount.png" style="position:absolute;margin-left:950px;margin-top:15px;z-index:2000" width="160px" />
+                                        <table style="width:100%" border="1">
+                                            <tbody>
+                                                <tr>
+                                                    <td colspan="2"> STAT(Studio Time and Tracking)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Client(s)</span></td>
+                                                    <td>Paramount</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Role</span></td>
+                                                    <td>Application support, maintenance & enhancement.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Environment</span></td>
+                                                    <td>ASP.NET 3.5 using C#, JavaScript   </td>
+                                                </tr>
+                                                <tr>
+                                                    <td><span style="font-weight:bold">Database</span></td>
+                                                    <td>MS-SQL Server 2008</td>
+                                                </tr>
+                                                <tr>
+                                                    <td colspan="2">
+                                                        <span style="font-weight:bold;text-decoration:underline">Description:</span>
+                                                        <ul>
+                                                            <li>STAT is the application for Employees time tracking, developed by Paramount Pictures Corp.</li>
+                                                            <li>Tasks included were maintaining system performance, making necessary changes for speedy response using optimization & providing department access to end users.</li>
+                                                            <li>Enhancement Tasks included designing pages, implementing code-behind logic, testing implementation.</li>
+                                                            <li>User Interface improving and adding functionality to provide maximum possible information regarding account status of user into the application.</li>
+
+                                                        </ul>
+
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="headingSix">
+                    <h2 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+                            Achievements
+                        </button>
+                    </h2>
+                </div>
+
+                <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <img src="./Content/img/achievement.png" style="position:absolute;margin-left:950px;margin-top:-10px" width="120px" />
+                        <ol>
+                            <li>Awarded <span class="imp">scholarship</span> in 3rd and 4th SEM in TSEC.</li>
+                            <li>Won <span class="imp">1st prize in project</span> competition organized by Vasantdada College.</li>
+                            <li><span class="imp">National level participation</span> certificate for project competition held in Manohar phalke institute.</li>
+                            <li>State level participation Certificate in Project Competition in AVALON-2011 organized by Terna College of Engineering.</li>
+
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div>
+            <div>
+                <img src="">
+            </div>
+            <div style="display:none">
+                <p>Copyright &copy; 2021 Manish R</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <div class="footertext">
+                    <p data-toggle="modal" data-target="#Contact">My Details</p>
+                    <p><a style="color:inherit" target="_blank" href="./Content/CV_Manish Mahesh Ramrakhiani.docx">My Resume</a></p>
+                    <p data-toggle="popover" class="popoverAction" title="Browser Compatibility" data-placement="top" html="true"data-content="
+                        <ul>
+                            <li>Internet explorer 11</li>
+                            <li>Google chrome 58</li>
+                            <li>Mozila Firefox 54</li>
+                        </ul>
+                        <span>This site is best viewed in 1366X768 resolution.</span>">Browser
+                        Compatibility
+                    </p>
+                </div>
+            </div>
+            <div>
+
+            </div>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade footermodal" id="Contact"  role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">My Contact Details</h4>
+                </div>
+                <div class="modal-body" style="height:300px">
+                    <table style="width:90%" align="center" cellpadding="0" cellspacing="0">
+
+                        <tr>
+                            <td>
+                                <p class="footermodalheading">Phone Number</p>
+                            </td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>+91-8169797294</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="footermodalheading">Email ID</p>
+                            </td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td><a href="mailto:ramrakhianimanish73@gmail.com">ramrakhianimanish73@gmail.com</a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="footermodalheading">City</p>
+                            </td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Ulhasnagar, Maharashtra&nbsp;<a target="_blank" href="https://www.google.com/maps/?q=Ulhasnagar"><img src="./Content/img/maps2.png" width="25px" /></a></td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="footermodalheading">Year Of Birth</p>
+                            </td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>1993</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="footermodalheading">Nationality</p>
+                            </td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Indian</td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p class="footermodalheading">My Hobbies</p>
+                            </td>
+                            <td>&nbsp;:&nbsp;</td>
+                            <td>Travelling, Playing Games, Listening music.</td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" class="btncss btn_primary1" data-dismiss="modal">OK</button>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <script>
+        $(document).ready(function () {
+            $('.popoverAction').popover({ html: true, placement: "top", animation: true });
+
+
+            $('body').on('click', function (e) {
+                if ($(e.target).data('toggle') !== 'popover' && $(e.target).parents('.popover.in').length === 0) {
+                    $('[data-toggle="popover"]').popover('hide');
+
+                }
+
+
+            });
+        });
+    </script>
+    <script>
+        function showalert() {
+            window.location.href = ("/");
+        }
+    </script>
+    <!--End Hide Show Div Script-->
+
+    <script type="text/javascript">
+        window.history.forward();
+        function noBack() { window.history.forward(); }
+
+        $(document).ready(function () {
+            setInterval(timerIncrement, 5000); // 5 Sec
+            //Zero the idle timer on mouse movement.
+            $(this).on('mousemove click keypress', function (e) {
+                if (defaultTimeout != 360) {
+                    defaultTimeout = 360;
+                    $("#sessionId").text(defaultTimeout);
+                }
+            });
+        });
+        var defaultTimeout = 360;
+        function timerIncrement() {
+            defaultTimeout = defaultTimeout - 1;
+
+            if (defaultTimeout == 0) {
+
+                alert("Your Session is Expired");
+                window.location.href = "/";
+            }
+            if (defaultTimeout == 5) {
+
+                alert("Your Session is about to Expire.  Please click Ok to Continue");
+
+            }
+            $("#sessionId").text(defaultTimeout);
+        }
+    </script>
+
+</body>
+</html>
+
+
+<script>
+   
+</script>
+<script>
+    function dont_onkeypress(event) {
+        debugger;
+        if (event.keyCode == 13 || event.which == 13) {
+            return false;
+        }
+        else {
+            var targetValue = $("#" + event.target.id).val() + "" + event.key;
+            $("#" + event.target.id).val(targetValue);
+            return true;
+        }
+    }
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+    
+    function redirectpage() {
+        window.location.reload();
+    }
+    $('.openlog').on('click', function () {
+        window.location.reload();
+    });
+    $("body").niceScroll({
+        //cursorcolor: "darkgrey",
+        cursorcolor: "#41B3A3",
+        cursorwidth: "15px",
+        //cursorborder: "1px solid slategrey",
+        cursorborder: "1px solid #fed23b",
+        scrollspeed: 60,
+        autohidemode: false,
+        //background: '#e5e5e5',
+        background: '#553867',
+        hidecursordelay: 400,
+        cursorfixedheight: false,
+        cursorminheight: 20,
+        enablekeyboard: true,
+        horizrailenabled: true,
+        bouncescroll: true,
+        smoothscroll: true,
+        iframeautoresize: true,
+        touchbehavior: false,
+        zindex: 999
+    });
+
+   
+    
+</script>

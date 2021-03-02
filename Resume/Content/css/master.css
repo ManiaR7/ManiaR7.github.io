@@ -1,0 +1,397 @@
+
+header{
+background: #fff;
+border-bottom: 1px solid #ccc;
+z-index:2001 !important;
+}
+header>div:last-child>div:nth-child(5)>a{
+color: #fff;
+background:#184363;
+}
+header>div:last-child>div:nth-child(5)>a:hover{
+box-shadow: 0px 0px 0px 3px #184363;
+}
+.menuIcon{
+background: #fed23b;
+}
+.sidebar{
+background:#1a4362;
+box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
+}
+.activeli>div{
+background: #ffd23b;
+color: #000!important;
+width: auto;
+display: block;
+position: relative;
+transition: all 300ms linear;
+font-weight: 300;
+line-height: 1.5em;
+padding-left: 10px;
+padding-right: 10px;
+border-radius: 3px 3px 0px 0px;
+}
+
+*{
+box-sizing:border-box;
+}
+
+html{
+min-height:100%;
+}
+
+body{
+min-height:100%;
+}
+
+body{
+font-family:'Segoe UI', calibri, sans-serif !important;
+font-size:12pt;
+line-height:1.5;
+position:relative;
+overflow:auto;
+text-align: left;
+} 
+
+footer{
+display: flex !important;
+padding: 5px 20px;
+width: 100%;
+align-items: center;
+justify-content: space-between;
+z-index: 999;
+/* bottom: 0px;
+position: fixed; */
+}
+footer img{
+vertical-align: middle;
+}
+footer>div:first-child{
+display: flex;
+align-items: center;
+z-index: 1000;
+}
+footer>div:first-child>div:last-child{
+line-height: 22px;
+padding-left: 5px;
+}
+footer>div:first-child p{
+font-size: 9pt;
+line-height: 1;
+margin-bottom: 0px;
+}
+footer>div:last-child{
+display: flex;
+align-items: center;
+}
+footer>div:last-child p{
+font-size: 9pt;
+line-height: 17px;
+text-align: right;
+margin-bottom: 0px;
+}
+footer>div:last-child>div:first-child{
+margin-right: 15px;
+}
+footer>div:last-child{
+    margin-right: 3px;
+    }
+footer>div:last-child>div:first-child>p:last-child{
+cursor: pointer;
+text-decoration: underline;
+}
+
+header{
+display: flex !important;
+width: 100%;
+padding: 0px 20px;
+justify-content: space-between;
+align-items: center;
+z-index: 998;
+position: fixed;
+height:60px;
+/*box-shadow:0 19px 34px -15px #d2d2f2;*/
+}
+header img{
+vertical-align: middle;
+}
+
+header>div:first-child{
+padding-left: 30px;
+}
+header>div:last-child{
+display: flex;
+align-items: center;
+position: relative;
+}
+header>div:last-child>div:nth-child(1){
+padding-right: 20px;
+border-right: 1px solid #aba078;
+}
+header>div:last-child>div:nth-child(2){
+font-weight: bold;
+}
+header>div:last-child>div:nth-child(3){
+padding-right: 30px;
+padding-left: 20px;
+position: relative;
+cursor: pointer;
+}
+header>div:last-child>div:nth-child(4){
+padding-right: 10px;
+cursor: pointer;
+position: relative;
+}
+header>div:last-child>div:nth-child(3)>p:first-child{ 
+font-weight: 500;
+line-height: 1;
+padding-bottom: 3px;
+margin-bottom: 3px;
+}
+header>div:last-child>div:nth-child(3)>p:nth-child(2){
+font-size: 12px;
+line-height: 1;
+margin-bottom: 3px;
+font-weight: 100;
+}
+header>div:last-child>div:nth-child(5)>a{
+text-decoration: none;
+padding: 5px 12px;
+font-size: 10pt;
+border-radius: 5px;
+text-transform: uppercase;
+letter-spacing: 1px;
+transition: all .3s;
+}
+.fixed{
+    bottom: 0px;
+    position: fixed;
+}
+
+.page-content{
+margin: 0 40px 0;
+position: relative;
+padding: 5px 0px;
+transition: all .3s;
+}
+
+.arrow{
+cursor: pointer;
+position: absolute;
+right: 13px;
+bottom: 9px;
+}
+.arrow_hide{
+cursor: pointer;
+position: absolute;
+right: 13px;
+}
+.popover-body {
+font-size: 9pt;
+}
+.popover-body>ul{
+list-style-type: disc;
+margin: 0 17px;
+padding-bottom: 6px;
+}
+
+
+
+.angle{
+position: absolute;
+right: 20px;
+}
+
+.mb0{
+margin-bottom: 0px;
+}
+
+.btn_primary1 {
+border: 1px solid #5a7a92;
+color: #fed23b !important;
+background: darkblue;
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.btn_primary1:hover {
+border: 1px solid #1a4362;
+color: #000 !important;
+background-color: transparent; 
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+
+
+}
+.btn_Scondary1 {
+border: 1px solid #5a7a92;
+color: #1a4362 !important;
+}
+.btn_Scondary1:hover{
+border: 1px solid #1a4362;
+color: #fed23b !important;
+background-color: #1a4362; 
+transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1)
+}
+
+@-webkit-keyframes heartbeat {
+from {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transform-origin: center center;
+transform-origin: center center;
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
+10% {
+-webkit-transform: scale(0.91);
+transform: scale(0.91);
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+}
+17% {
+-webkit-transform: scale(0.98);
+transform: scale(0.98);
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
+33% {
+-webkit-transform: scale(0.87);
+transform: scale(0.87);
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+}
+45% {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
+}
+@keyframes heartbeat {
+from {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transform-origin: center center;
+transform-origin: center center;
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
+10% {
+-webkit-transform: scale(0.91);
+transform: scale(0.91);
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+}
+17% {
+-webkit-transform: scale(0.98);
+transform: scale(0.98);
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
+33% {
+-webkit-transform: scale(0.87);
+transform: scale(0.87);
+-webkit-animation-timing-function: ease-in;
+animation-timing-function: ease-in;
+}
+45% {
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-animation-timing-function: ease-out;
+animation-timing-function: ease-out;
+}
+}
+.mr5{
+margin-right: 5px;
+}
+.ml5{
+margin-left: 5px;
+}
+
+.gridtable table td, .gridtable table th{
+    border-right: 1px solid #dee2e6;
+}
+
+.footertext p:nth-child(2) {
+	border-right: 1px solid #0d69a2;
+	padding: 0px 10px;
+}
+
+.footertext p:nth-child(1) {
+	border-right: 1px solid #0d69a2;
+	padding-right: 10px;
+}
+.footertext p:last-child {
+	padding-left: 6px;
+}
+.footertext p {
+	display: inline-block;
+}
+
+.footertext > p {
+	cursor: pointer;
+	text-decoration: underline;
+	text-underline-position: under;
+}
+.footermodal .modal-body {
+	height: 400px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.footermodal table {
+	font-size: 14px;
+	font-family: inherit;
+	border: none;
+}
+.footermodalheading {
+	text-decoration: underline;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+::-webkit-scrollbar {
+	width: 15px;
+	height: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: #f4f4f4;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: #d6d6d6;
+}
+
+	/* Handle on hover */
+	::-webkit-scrollbar-thumb:hover {
+		background: #d5d5d5;
+	}
+
+/*Added by dora to resolve child menu background color issue when go to cBos*/
+a.list-group-item.lbluebg.child{
+    background-color:transparent !important;
+}
+
+.card-header {
+padding:0.25rem 1.25rem !important
+}
+
+.card-body>table>tbody>tr>td:first-child:not([colspan]){
+       color:darkblue;
+       font-weight:bold;
+}
+
+.card-body > table > tbody > tr:first-child > td:first-child {
+    color: darkblue;
+    font-weight: bold;
+}
+.card-body > table > tbody > tr > td {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+.imp {
+    color:#0e0d8b;
+    font-weight:600
+}
