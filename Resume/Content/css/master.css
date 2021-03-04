@@ -402,7 +402,7 @@ padding:0.25rem 1.25rem !important
     h4 {
         font-size: 18px;
     }
-	li{
+	.card-body>li{
 	font-size:16px;
 	}
     .modal-header {
