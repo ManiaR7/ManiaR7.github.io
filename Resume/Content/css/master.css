@@ -395,3 +395,35 @@ padding:0.25rem 1.25rem !important
     color:#0e0d8b;
     font-weight:600
 }
+@media (max-width: 576px) {
+    h1 {
+        margin-left: -30px;
+        font-size: 24px
+    }
+
+    h4 {
+        font-size: 18px;
+    }
+
+    .modal-header {
+        height:50px;
+    }
+    .openlog {
+        font-size: 18px
+    }
+    .page-content {
+        margin: 0 15px 0
+    }
+    .card-body {
+        padding:.5rem
+    }
+    ol, ul, dl {
+        margin-left:-15px
+    }
+    img {
+        display:none !important;
+    }
+    .popoverAction {
+        display: none !important
+    }
+}
