@@ -428,6 +428,9 @@ padding:0.25rem 1.25rem !important
     img {
         display:none;
     }
+	.modal-footer>.btn_primary1{
+		margin-top:-5px
+	}
     .popoverAction {
         display: none !important
     }
