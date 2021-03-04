@@ -132,8 +132,6 @@ header>div:last-child>div:nth-child(2){
 font-weight: bold;
 }
 header>div:last-child>div:nth-child(3){
-padding-right: 30px;
-padding-left: 20px;
 position: relative;
 cursor: pointer;
 }
@@ -411,13 +409,15 @@ padding:0.25rem 1.25rem !important
         height:50px;
     }
     .openlog {
+	    margin-left:-25px;
         font-size: 18px
     }
     .page-content {
         margin: 0 15px 0
     }
     .card-body {
-        padding:.5rem
+        padding:.5rem;
+	    font-size:16px
     }
     ol, ul, dl {
         margin-left:-15px
