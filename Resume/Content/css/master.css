@@ -408,6 +408,9 @@ padding:0.25rem 1.25rem !important
     .modal-header {
         height:50px;
     }
+    .modal-footer {
+        height:40px;
+    }
     .openlog {
 	    margin-left:-25px;
         font-size: 18px
